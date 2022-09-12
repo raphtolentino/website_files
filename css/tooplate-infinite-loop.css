@@ -237,7 +237,7 @@ blockquote {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: #37A;
+  background: rgb(2, 32, 55);
   padding: 20px 50px;
 }
 
