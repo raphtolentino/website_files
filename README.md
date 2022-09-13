@@ -1,2 +1,2 @@
 # website
-Small project for a start up photography business.
+Website content for a porfolio website
