@@ -9,13 +9,14 @@ https://www.tooplate.com/view/2117-infinite-loop
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 body {
-	font-family: "Raleway", sans-serif;
-	font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
   color: #707070;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
+
 a {
   transition: all 0.3s ease;
   color: #38B;
@@ -24,7 +25,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #D40;
+  color: whitesmoke;
 }
 
 a:focus {
@@ -74,13 +75,21 @@ blockquote {
   background-color: #38B;
 }
 
+#id_hobby {
+  position: relative;
+  color: #001828;
+}
+
+
+
+
 /* Navbar */
 
 .tm-navbar {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background-color: transparent;
+  background-color: rgba(128, 128, 128, 0.445);
   transition: all 0.3s ease;
 }
 
@@ -97,11 +106,11 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #38B;
+  color: royalblue;
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #369;
+  color: royalblue;
 }
 
 .nav-item {
@@ -113,14 +122,14 @@ blockquote {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #369;
+  color: royalblue;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #FFF;
-  background-color: #369;
+  color: white;
+  background-color: royalblue;
 }
 
 .navbar-toggler {
@@ -135,18 +144,18 @@ blockquote {
 }
 
 .tm-navbar.scroll .navbar-toggler {
-  border: 1px solid #707070;
+  border: 1px solid white;
 }
 
 .tm-navbar.scroll .navbar-toggler-icon {
-  color: #707070;
+  color: white;
 }
 
 /* Hero */
 
 #infinite {
-	background-color: #222;
-  background-image: url(../img/infinite-loop-01.jpg);
+  background-color: #222;
+  background-image: url(../img/ducks2.JPG);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -227,22 +236,29 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #FFF;
-    cursor: pointer;
-    background: rgb(32, 42, 69);
-    padding: 15px 40px;
-    transition: all 0.3s ease;
+  color: #FFF;
+  cursor: pointer;
+  background: #357;
+  padding: 15px 40px;
+  transition: all 0.3s ease;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: rgb(2, 32, 55);
+  background: #37A;
   padding: 20px 50px;
 }
 
 /* Introduction */
 
+#soul {
+  position: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 #introduction {
   padding-bottom: 100px;
 }
@@ -262,7 +278,7 @@ blockquote {
 }
 
 .tm-continue {
-	padding: 20px 0 30px 0;
+  padding: 20px 0 30px 0;
 }
 
 /* Testimonials */
@@ -402,7 +418,7 @@ blockquote {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -412,7 +428,7 @@ blockquote {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -506,8 +522,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-container-gallery {
-	padding-top: 30px;
-	}
+  padding-top: 30px;
+}
 
 /* Contact */
 
@@ -545,8 +561,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-input {
-	margin: 0 0 20px 0;
-	width: 90%;
+  margin: 0 0 20px 0;
+  width: 90%;
   padding: 8px 20px;
   border-radius: 6px;
   border: 1px solid white;
@@ -555,22 +571,23 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-btn-submit {
-	font-size: 0.9em;
-	color: #fff;
-	background-color: #369;
-	width: 50%;
-	margin-bottom: 60px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #369;
+  width: 50%;
+  margin-bottom: 60px;
 }
 
 .tm-btn-submit:hover {
-	color: #fff;
-	background-color: #38B;
+  color: #fff;
+  background-color: #38B;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 :-ms-input-placeholder {
@@ -592,11 +609,11 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer a {
-	color: #fff;
+  color: #fff;
 }
 
 .tm-footer a:hover {
-	color: #9CF;
+  color: #9CF;
 }
 
 .tm-footer-link {
@@ -674,7 +691,7 @@ p {
 
   .navbar-collapse .nav-link {
     color: #707070;
-	padding-right: 20px;
+    padding-right: 20px;
   }
 }
 
