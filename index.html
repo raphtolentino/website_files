@@ -172,6 +172,9 @@
         ]
       });
 
+      function onclick() {
+        alert("Thank you for your message. We will contact you shortly.");
+      }
       // Gallery
       $('.tm-gallery').slick({
         dots: true,
@@ -492,8 +495,7 @@
               <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
               <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
               <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
-              <button type="submit" class="btn tm-btn-submit">Submit</button>
-              <
+              <button type="submit" class="btn tm-btn-submit" onclick ="popUp()">Submit</button>
             </form>
           </div>
           
