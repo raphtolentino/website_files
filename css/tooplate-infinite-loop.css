@@ -408,7 +408,6 @@ blockquote {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .grid figure figcaption::before,
 .grid figure figcaption::after {
   pointer-events: none;
