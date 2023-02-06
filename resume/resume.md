@@ -7,10 +7,10 @@ More documentation can be found in the docs section
 >>> https://resume.lol/docs
 -->
 @REDACTED=false
-@NAME=My Name||Hidden Name
-@EMAIL=realemail@gmail.com||fake@email.com
-@PHONE=(123) 123-REAL||(555) 123-5555
-@LOCATION=Los Angeles, CA
+@NAME= Raphael Moreira Tolentino||Hidden Name
+@EMAIL=soulpm3@gmail.com||fake@email.com
+@PHONE= 07491279686||(555) 123-5555
+@LOCATION= London UK
 @WEBSITE=mysite.com||example.com
 
 # {NAME}
@@ -19,65 +19,80 @@ More documentation can be found in the docs section
 
 - {EMAIL}
 - {PHONE}
-- [{WEBSITE}](https://{WEBSITE})
 - {LOCATION}
-
 </div>
 
 ## Experience
 
-### Software Engineer, TikTok <span class="spacer"></span> Jul 2021 &mdash; Present
+### Sound Engineer, Deacon Volunteer, Local Church <span class="spacer"></span> Feb 2014 &mdash; Present
 
-You can include a blurb here explaining a bit about what you worked on
+- Providing 4+ years of Senior technical support to a focus group with the goal 
+of enhancing religious experience and performance of members.
+- Collaborated with a small team of 3-5 members to ensure that they were 
+fully equipped to provide technical support to the local church.
 
-- Built out some feature on the For You Page
-- Worked on a feature related to User Profiles
-- Launched a feature that grew to 50M users in the first week
-- Mentored peer engineers on front-end development and best practices
+### EDI Student Representative , University of Kent  <span class="spacer"></span> Oct 2021 &mdash; July 2022
 
-Technologies: React, Preact, Javascript, TypeScript, styled-components, Storybook, CSS, Sass, Jest
+- Provided exceptional service by effectively communicating EDI concerns to 
+tutors and educators, resulting in increased inclusivity and equality to all 
+students.
+- Proactively contributed to the development, design, and promotion of EDI 
+initiatives through participation in P.R. events, to promote better student 
+inclusion
 
-### Software Engineer, Spotify <span class="spacer"></span> Feb 2019 &mdash; Jun 2021
+### Crew Person , MJ Restaurant <span class="spacer"></span> Sept 2018 &mdash; Feb 2019
 
-- Worked on the front-end experience for the Year-In-Review feature
-- Implemented a backend API for Playlist Radio
-- Built the ML model for Discover Weekly playlists
+- Worked collaboratively with a team of 5-7 to ensure compliance with food 
+preparation and presentation standards. 
+- Developed strong interpersonal, problem-solving, and customer service 
+skills during my tenure at MJ Restaurant.
 
-Technologies: React, NextJS, Javascript, styled-components, Golang, Docker, AWS, Chrome Extensions
+## Education and Qualifications
 
-### Software Engineer, Airbnb <span class="spacer"></span> Sept 2018 &mdash; Feb 2019
+### University of Kent, Computing, Bachelors of Science <span class="spacer"></span> 2019 &mdash; 2022
 
-- Worked on a feature on the Hosts dashboard
+#### First Year Modules Included:
+- Intro to OOP - (100% coursework grade).
+- Further OOP - (100% coursework grade).
+- Foundation of Computing I -(79% overall including 98% exam grade).
+- Databases and the Web - Leant HTML, MySQL and JavaScript (80% overall and 97% coursework grade).
+#### Second Year Modules Included: 
+- Computing Theory and Concurrent Programming - (80% overall and 93% coursework grade)
+- Agile Development A - Learnt about Software Development, UML's and Git control
+- Agile Development B - Developed a Burger Business website in a group. 
+- Website Development - (70% coursework grade)
 
-<!-- Older resume bits can be commented out so that you can keep the info without deleting it -->
+#### Third Year Modules included
+- Computational Creativity - (100% coursework grade)
+- eHealth - Learnt about IT and healthcare relationship
+- Group Project - Developed a android Software app in a group remotely. 
 
-<!-- ### <span>Software Engineering Intern, Google</span> <span>Mar 2017 &mdash; Sept 2017</span>
+### Merton College<span class="spacer"></span> 2016 &mdash; 2019
+- BTEC: DDD | A-levels: AAA
 
-### <span>Software Engineering Intern, Curalate</span> <span>June 2016 &mdash; Sept 2016</span> -->
-
-## Education
-
-### University Name, Major, Bachelors of Science <span class="spacer"></span> 2014 &mdash; 2018
-
-- Include GPA if you like
-- Teacher Assistant for 1 year (Intro to Programming and Client Side Web Development)
-- Resident Advisor for 2 years
-
-## Current Projects
-
-### resume.lol
-
-- Built a resume editor which converts Markdown and CSS into a beautifully rendered resume PDF
-- Implemented a WYSIWYG multi-page live preview of the resume from scratch
-- Exported this resume from the website :)
+## Worked Projects
+- During Year 2, I collaborated with a group to build a burger business website, which I am currently enhancing.
+- During Year 2, I created a Garden Simulator using Python that runs in a mere 0.5 seconds.
+- In Year 2, I developed a Twitter bot that automatically prints and posts diary-style tweets based on four predetermined scenarios.
+- During Year 3, I worked with a team to build a social event Android software.
+- I coded a quote Twitter bot that prints and posts motivational quotes for inspiration.
 
 ## Skills
+- Code: Python, HTML, CSS, MySQL
+- Tools: Git, GitHub, Microsoft Office Suite.
+- Language: Portuguese and English
 
-- Code: React + hooks, NextJS, Javascript, TypeScript, NodeJS, CSS, styled-components, Golang
-- Tools: Docker, Redis, SQL, AWS, Puppeteer, Storybook, Jest, Shell, Tailwind
+## Interests
+#### Professional Interests
+- Security Research
+- Programming
+- Attending IT Conferences.
+#### Personal Interests
+- Nature Photography
+- Travel
+- Cooking
+- Fitness
 
-## Achievements
+## References
+- DR Frank Wang : <br> email: f.z.wang@kent.ac.uk 
 
-### Best Undergrad Research Project <span class="spacer"></span> 2018
-
-### Eagle Scout <span class="spacer"></span> 2012
